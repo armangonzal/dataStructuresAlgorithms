@@ -6,6 +6,13 @@ public class BinaryTreeNode<T>
 
     public BinaryTreeNode() {
         data = null;
+        left = null;
+        right = null;
+    }
+
+    public BinaryTreeNode(T data) {
+        this();
+        this.data = data;
     }
 
     public T getData() {
