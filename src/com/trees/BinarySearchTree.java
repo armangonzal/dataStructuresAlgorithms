@@ -1,3 +1,4 @@
+package com.trees;
 import java.util.*;
 
 public class BinarySearchTree<T extends Comparable<T>>{

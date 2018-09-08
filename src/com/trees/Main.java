@@ -1,5 +1,9 @@
-public class testTrees{
+package com.trees;
+
+public class Main {
+
     public static void main(String[] args) {
+	// write your code here
         BinaryTreeNode<Integer> node0 = new BinaryTreeNode<>(23);
         BinaryTreeNode<Integer> node1 = new BinaryTreeNode<>(41);
         BinaryTreeNode<Integer> node2 = new BinaryTreeNode<>(65);

@@ -1,3 +1,5 @@
+package com.trees;
+
 public class BinaryTreeNode<T>
 {
     private T data;
