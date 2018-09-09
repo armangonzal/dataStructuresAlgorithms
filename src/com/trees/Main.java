@@ -15,8 +15,14 @@ public class Main {
         root.setRight(node2);
         root.getLeft().setLeft(node3);
 
+        System.out.println("PreOrderRec");
         bst.preOrderRec(bst.getRoot());
-        System.out.println("new test");
+        System.out.println("PreOrder");
         bst.preOrder();
+
+        System.out.println("InOrderRec");
+        bst.inOrderRec(bst.getRoot());
+        System.out.println("InOrder");
+        bst.inOrder(bst.getRoot());
     }
 }
